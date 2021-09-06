@@ -33,23 +33,24 @@ body {
 }
 .a1 {
     background-image: url("Photos/1.jpg");
-    color: white;
+    color: #EA6267;
+
 }
 .a2 {
     background-image: url("Photos/2.jpg");
-    color: white;
+    color: #EA6267;
 }
 .a3 {
     background-image: url("Photos/3.jpg");
-    color: white;
+    color: #EA6267;
 }
 .a4 {
     background-image: url("Photos/4.jpg");
-    color: white;
+    color: #EA6267;
 }
 .a5 {
     background-image: url("Photos/5.jpg");
-    color: white;
+    color: #EA6267;
 }
 p {
     font-weight: normal;
@@ -60,6 +61,7 @@ p {
     bottom: 0;
     opacity: 0;
     padding: 10px;
+    background-color: #662B2D;
 }
 .box:hover .text {
     opacity: 1;
