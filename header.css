@@ -8,7 +8,7 @@
 /* Style the header links */
 .header a {
   float: left;
-  color: black;
+  color: #EA6267;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -26,7 +26,7 @@
 /* Change the background color on mouse-over */
 .header a:hover {
   background-color: #662B2D;
-  color: white;
+  color: #EA6267;
 }
 
 /* Style the active/current link*/
