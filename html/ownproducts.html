@@ -23,7 +23,7 @@
   					<div class="dropdown-content">
     					<a href="../html/cheese.html">Fromages</a>
     					<a href="../html/price.html">Prix</a>
-    					<a href="#">Nos Produits</a>
+    					<a href="../html/ownproducts.html">Nos Produits</a>
   					</div>
 				</div> 
 				<div class="col-lg-4 col-xs-12"><a href="../html/theme.html">Qui Somme Nous ?</a></div>
@@ -33,50 +33,66 @@
 	</div>  
 </nav>
 
-<main>
-	<div class="container-fluid">
-		<div class="container">
-			<div class="row">
-			<table class="table">
-			  <thead>
-			    <tr>
-			      <th scope="col"><i class="fas fa-wine-bottle"></i></th>
-			      <th scope="col">Nom</th>
-			      <th scope="col">Provenance</th>
-			      <th scope="col">€/Kilos</th>
-			    </tr>
-			  </thead>
-			  <tbody>
-			    <tr>
-			      <th scope="row">1</th>
-			      <td>Parmesan</td>
-			      <td>Italie</td>
-			      <td>36</td>
-			    </tr>
-			    <tr>
-			      <th scope="row">2</th>
-			      <td>Mozzarella</td>
-			      <td>Italie</td>
-			      <td>11</td>
-			    </tr>
-			    <tr>
-			      <th scope="row">3</th>
-			      <td>Chèvre</td>
-			      <td>France</td>
-			      <td>17</td>
-			    </tr>
-			  </tbody>
-			</table>	
-			</div>
+
+<main>    <!-- Systeme de h2 pour indiquer le titre ainsi que de label pour indiquer les choix et les boutons radio pour valider les choix -->
+
+	<h2>Pâte Dur</h2>
+	<div class="question1">
+
+		<div>
+  			<input type="radio" id="rape" name="q1" value="false">
+  			<label for="rape">Emmentale</label>
 		</div>
-	</div>
+
+		<div>
+  			<input type="radio" id="comte" name="q1" value="false">
+  			<label for="comte">Comté</label>
+		</div>
+
+		<div>
+  			<input type="radio" id="parmesan" name="q1" value="false">
+  			<label for="parmesan">Parmesan</label>
+		</div>
+
+	<h2>Pâte Molle</h2>
+	<div class="question2">
+
+		<div>
+  			<input type="radio" id="mozza" name="q2" value="false">
+  			<label for="mozza">Mozzarella</label>
+		</div>
+
+		<div>
+  			<input type="radio" id="faisselle" name="q2" value="false">
+  			<label for="faisselle">Faisselle</label>
+		</div>
+
+		<div>
+  			<input type="radio" id="chèvre" name="q2" value="false">
+  			<label for="chèvre">Chèvre Frais</label>
+		</div>
+
 </main>
+	<input type="submit" name="envoyer"> <!-- INDICATION AU SITE POUR LENVOYER  -->
 
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

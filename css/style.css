@@ -6,6 +6,7 @@
 	list-style: none;
 	color: black;
 	transition: 0.2s;
+	
 
 }
 
@@ -43,6 +44,7 @@
 }
 
 nav {
+	overflow: 
 	height: 50px;
 	max-height: 100px;
 	position: relative;
@@ -54,9 +56,6 @@ h3, li {
 	text-align: center;
 }
 
-article {
-	margin-bottom: -400px;
-}
 
 main img {
 	border: solid black 4px;
@@ -72,8 +71,28 @@ table {
 	visibility: hidden;
 }
 
-article:hover img, article:hover {
+
+div input, div label {
+	text-align: center;
 	display: block;
-	visibility: visible;
-	margin-bottom: 10px;
+	justify-content: center;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+div label:hover {
+	color: #662B2D;
+}
+
+div input:active, div label {
+	border: lightskyblue; 1px solid;
+
+}
+
+
+.cheesepict {
+	width: 250px;
+	height: 250px;
+	display: flex;
+
 }
